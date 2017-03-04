@@ -8,8 +8,5 @@
 		"vibe-d:web": "~>0.7.30"
 	},
 	"subConfigurations": {"vibe-d:core": "win32"},
-	"versions":["VibeDebugCatchAll"],
-	"description": "A simple vibe.d server application.",
-	"copyright": "Copyright © 2017, Max",
-	"license": "proprietary"
+	"versions":["VibeDebugCatchAll"]
 }
