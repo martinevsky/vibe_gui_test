@@ -1,0 +1,14 @@
+{
+	"name": "vibe_gui_test",
+	"authors": [
+		"Max"
+	],
+	"dependencies": {
+		"vibe-d:core": "~>0.7.30",
+		"vibe-d:web": "~>0.7.30"
+	},
+	"subConfigurations": {"vibe-d:core": "win32"},
+	"description": "A simple vibe.d server application.",
+	"copyright": "Copyright © 2017, Max",
+	"license": "proprietary"
+}
