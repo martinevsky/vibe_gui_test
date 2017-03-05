@@ -1,6 +1,6 @@
-doctype html
+doctype 5
 
-html(lang="en")
+html
 	head
 		:css
 			body {visibility: hidden;padding: 7px;}
