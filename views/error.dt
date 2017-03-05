@@ -1,0 +1,10 @@
+extends layout
+
+block title 
+	- auto title = "HTTP error " ~ to!string(error.code);
+
+block body
+	div(class="hero-unit", style="color: #ffffff;background-color: #aa0000;border-color: #aa0000;")
+		p Error description: #{error.message}
+		pre(style="color: #ffffff;background-color: #aa0000") Debug message: #{error.debugMessage}
+		pre(style="color: #ffffff;background-color: #aa0000") Exception: #{error.exception}

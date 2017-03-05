@@ -1,0 +1,67 @@
+extends layout
+
+block title
+	- auto title = "Home";
+
+block body
+	// div(class="container")
+	table(class="table table-bordered", style="width:100%;white-space:nowrap;")
+		thead
+			tr
+				th 
+					div #
+				th(style="width:100%;") 
+					div Tittle
+				th
+					div State
+				th
+					div Author
+				th
+					div Role
+				th
+		tbody
+			tr
+				td 
+					div 
+						a(href="http://ya.ru") 00001
+				td 
+					div Test stesr tstst cvkx ckvh kjxcv xhc 
+				td 
+					div In progress
+				td 
+					div Lukashenya
+				td 
+					div Rewiwer
+				td
+					form(action="postAttachHere?2", method="POST", style="margin: 0 0 0px;")
+						button(type="submit", class="btn btn-mini") Button
+			tr
+				td 
+					div 
+						a(href="http://ya.ru") 00002
+				td 
+					div Lorem ipsum
+				td 
+					div In Something
+				td 
+					div Lukashenya
+				td 
+					div Rewiwer
+				td
+					form(action="postAttachHere?2", method="POST", style="margin: 0 0 0px;")
+						button(type="submit", class="btn btn-mini") Button
+			tr
+				td 
+					div 
+						a(href="http://ya.ru") 00003
+				td 
+					div Test stesr tstst
+				td 
+					div In progress
+				td 
+					div Lukashenya
+				td 
+					div Rewiwer
+				td
+					form(action="postAttachHere?2", method="POST", style="margin: 0 0 0px;")
+						button(type="submit", class="btn btn-mini") Button
